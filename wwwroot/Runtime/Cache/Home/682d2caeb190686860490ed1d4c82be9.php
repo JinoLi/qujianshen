@@ -205,7 +205,7 @@ $("#Mall_nav").mouseleave(function(){
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                            <a href="<?php echo U('User/profile');?>">个人信息</a>
+                                            <a href="<?php echo U('User/profiles');?>">个人信息</a>
                                 </div>
                             </div>
                         </div>

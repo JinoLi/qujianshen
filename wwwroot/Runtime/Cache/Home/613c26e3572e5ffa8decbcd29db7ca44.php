@@ -53,8 +53,8 @@
                 <li><a href="<?php echo U('Index/Index');?>" id="Index_nav" style="margin-left:3px">主页</a></li>
                 <li><a href="<?php echo U('BodySpace/Index');?>" id="User_nav" >空间</a></li>
                 <li><a href="<?php echo U('Exercise/exc_common');?>" id="Exercise_nav">健身</a></li>
-                <li><a href="<?php echo U('Index/Index');?>" id="Nutri_nav">饮食</a></li>
-                <li><a href="<?php echo U('User/login');?>" id="Around_nav">周边</a></li>
+                <li><a href="<?php echo U('nri/Index');?>" id="Nutri_nav">饮食</a></li>
+                <li><a href="<?php echo U('near/Index');?>" id="Around_nav">周边</a></li>
                 <li><a href="#" id="Mall_nav">商城</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
@@ -205,7 +205,7 @@ $("#Mall_nav").mouseleave(function(){
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                            <a href="<?php echo U('User/profile');?>">个人信息</a>
+                                            <a href="<?php echo U('User/profiles');?>">个人信息</a>
                                 </div>
                             </div>
                         </div>
@@ -225,7 +225,7 @@ $("#Mall_nav").mouseleave(function(){
                 <li><a href="<?php echo U('Exercise/exc_common');?>" id="exc_nav">健身主页</a></li>
                 <li><a href="<?php echo U('Exercise/exc_filter');?>" id="filter_nav" >过滤器</a></li>
                 <li><a href="<?php echo U('Exercise/exc_ind');?>" id="tml_nav">制定计划</a></li>
-                <li><a href="<?php echo U('Index/Index');?>" id="Nutri_nav">饮食</a></li>
+                <li><a href="<?php echo U('Exercise/exc_doc');?>" id="doc_nav">文章</a></li>
                 <li><a href="<?php echo U('User/login');?>" id="Around_nav">周边</a></li>
                 <li><a href="#" id="Mall_nav">商城</a></li>
             </ul>
